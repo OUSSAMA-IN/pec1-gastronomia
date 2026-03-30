@@ -690,6 +690,11 @@ main {
   border: 0;
   border-radius: 12px;
 }
+.detalle__galeria.pastela
+{
+margin-left: 0;
+padding-left: 0;
+}
 
 @media (width <= 768px) {
   .detalle-pastela__titulo {
