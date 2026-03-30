@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Sabores de Marruecos</title>
+    <link rel="stylesheet" href="./assets/styles/main.scss" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+  </head>
+  <body>
+
+  <header class="header">
+      <div class="header__contenedor">
+        <h1 class="header__logo">Sabores del Mundo</h1>
+
+        <nav class="header__nav">
+          <ul class="header__menu">
+            <li><a href="index.html">Inicio</a></li>
+            <li><a href="categoria.html">Categorías</a></li>
+            <li><a href="#platos">Platos</a></li>
+            <li><a href="#contacto">Contacto</a></li>
+            <li><a href="links.html">Enlaces</a></li>
+          </ul>
+        </nav>
+      </div>
+    </header>
+ <main>
+   <section class="portada" id="inicio">
+        <div class="portada__contenedor">
+          <div class="portada__contenido">
+
+            <p class="portada__subtitulo">
+              Un recorrido por la gastronomía internacional
+            </p>
+
+            <h2 class="portada__titulo">
+             Descubre sabores únicos del mundo
+            </h2>
+
+            <p class="portada__descripcion">
+               Un viaje gastronómico por distintas culturas a través de sus platos más
+              emblemáticos y recetas tradicionales.
+            </p>
+
+            <a href="#categorias" class="portada__boton">
+              Descubrir platos
+            </a>
+
+          </div>
+        </div>
+      </section>
+       <section class="categorias" id="categorias">
+        <div class="categorias__contenedor">
+
+          <h2 class="categorias__titulo">Categorías destacadas</h2>
+
+          <div class="categorias__grid">
+
+            <article class="categorias__card">
+              <img src="./assets/img/pizza.jpeg"alt="Pizza" />
+              <h3>Cocina italiana</h3>
+              <p>Pasta, pizza y recetas clásicas.</p>
+               <a href="./categoria.html" class="categoria-card__enlace">Ver categoría</a>
+            </article>
+
+            <article class="categorias__card">
+              <img src="./assets/img/articulo2.jpeg" alt="Tajín" />
+              <h3>Cocina marroquí</h3>
+              <p>Platos llenos de sabor y tradición.</p>
+               <a href="./categoria.html" class="categoria-card__enlace">Ver categoría</a>
+            </article>
+
+            <article class="categorias__card">
+              <img src="./assets/img/articulo3.jpeg"alt="Postres" />
+              <h3>Postres</h3>
+              <p>Dulces irresistibles.</p>
+               <a href="./categoria.html" class="categoria-card__enlace">Ver categoría</a>
+
+            </article>
+
+          </div>
+
+        </div>
+      </section>
+       <section class="platos" id="platos">
+  <div class="platos__contenedor">
+    <h2 class="platos__titulo">Sabores que descubrir</h2>
+
+    <div class="platos__grid">
+      <article class="platos__card">
+        <img
+          src="./assets/img/paella.jpg"
+          alt="Paella"
+        />
+        <h3>Paella valenciana</h3>
+        <p>Uno de los platos más famosos de España.</p>
+         <button class="platos__boton" type="button">Ver más</button>
+
+        <div class="platos__extra">
+          <p><strong>Ingredientes:</strong> arroz, pollo, conejo, judía verde, tomate, aceite de oliva, azafrán y caldo.</p>
+
+         <p><strong>Preparación:</strong> se sofríe la carne con verduras, se añade el arroz y el caldo, y se cocina a fuego medio hasta que 
+          el arroz quede seco y en su punto.</p>
+        </div>
+      </article>
+
+      <article class="platos__card">
+        <img src="./assets/img/cuscus.webp" alt="Cuscús" />
+        <h3>Cuscús tradicional</h3>
+        <p>Receta típica del norte de África.</p>
+         <button class="platos__boton" type="button">Ver más</button>
+
+        <div class="platos__extra">
+         <p><strong>Ingredientes:</strong> sémola de cuscús, pollo o cordero, zanahoria, calabacín, garbanzos, cebolla y especias.</p>
+
+         <p><strong>Preparación:</strong> se cocina la carne con verduras y especias, se prepara la sémola al vapor y se sirve todo junto con caldo por encima.</p>
+        </div>
+      </article>
+
+      <article class="platos__card">
+        <img
+          src="./assets/img/tarta.jpeg"
+          alt="Tarta"
+        />
+        <h3>Tarta de queso</h3>
+        <p>Postre cremoso y delicioso.</p>
+         <button class="platos__boton" type="button">Ver más</button>
+
+        <div class="platos__extra">
+          <p><strong>Ingredientes:</strong> queso crema, huevos, azúcar y base de galleta.</p>
+          <p><strong>Preparación:</strong> se hornea hasta conseguir una textura suave y cremosa.</p>
+        </div>
+      </article>
+    </div>
+  </div>
+</section>
+
+
+ </main>
+   <include src="src/views/footer.html"></include>
+   <script type="module" src="./assets/scripts/app.js"></script>
+  </body>
+  
+</html>

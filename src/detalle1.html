@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Sabores de Marruecos</title>
+    <link rel="stylesheet" href="./assets/styles/main.scss" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+  </head>
+  <body>
+
+  <header class="header">
+      <div class="header__contenedor">
+        <h1 class="header__logo">Sabores del Mundo</h1>
+
+        <nav class="header__nav">
+          <ul class="header__menu">
+            <li><a href="index.html">Inicio</a></li>
+            <li><a href="categoria.html">Categorías</a></li>
+            <li><a href="#platos">Platos</a></li>
+            <li><a href="#contacto">Contacto</a></li>
+            <li><a href="links.html">Enlaces</a></li>
+          </ul>
+        </nav>
+      </div>
+    </header>
+  <main class="detalle">
+
+  <section class="detalle__hero">
+    <div class="detalle__hero-contenido">
+      <p class="detalle__subtitulo">Especialidad tradicional</p>
+      <h1 class="detalle__titulo">Tajín tradicional</h1>
+      <p class="detalle__descripcion">
+        Un plato emblemático de la cocina marroquí, cocinado lentamente
+        con especias, verduras y carne para lograr un sabor intenso y lleno de tradición.
+      </p>
+    </div>
+  </section>
+
+  <section class="detalle__info">
+    <div class="detalle__grid">
+
+      <div class="detalle__columna detalle__columna--izquierda">
+        <h2>Ingredientes</h2>
+        <ul class="detalle__lista">
+          <li>Carne y verduras</li>
+          <li>Cúrcuma</li>
+          <li>Jengibre</li>
+          <li>Canela</li>
+          <li>Comino</li>
+          <li>Aceite de oliva</li>
+        </ul>
+      </div>
+
+      <div class="detalle__columna detalle__columna--derecha">
+        <h2>Tradición y origen</h2>
+
+        <p>
+          El tajín es uno de los platos más representativos de la gastronomía marroquí.
+          Su nombre proviene del recipiente de barro en el que se cocina, diseñado para
+          mantener el calor y concentrar todos los aromas.
+        </p>
+
+        <p>
+          Se elabora lentamente con ingredientes como pollo, cordero o verduras, combinados
+          con especias como cúrcuma, jengibre, canela o comino.
+        </p>
+
+        <p>
+          Más allá de su preparación, el tajín también forma parte de la tradición familiar
+          y de la cultura de compartir la comida en reuniones y celebraciones.
+        </p>
+      </div>
+
+    </div>
+  </section>
+<section class="detalle__galeria tajin">
+  <h2>El tajín en imágenes</h2>
+
+  <div class="detalle__imagenes">
+    <img src="./assets/img/tajin.webp" alt="Tajín marroquí servido en plato tradicional">
+    <img src="./assets/img/tajin_2.jpg" alt="Ingredientes del tajín con verduras y especias">
+    <img src="./assets/img/tajin_3.jpg" alt="Preparación del tajín en recipiente de barro">
+  </div>
+</section>
+ 
+  <section class="detalle__video">
+    <h2>El tajín: historia y elaboración</h2>
+    <p class="detalle__intro-video">
+      Un recorrido por el origen, el significado cultural y la preparación de
+      uno de los platos más emblemáticos de Marruecos.
+    </p>
+
+    <div class="detalle__video-contenedor">
+
+      <iframe
+        src="https://www.youtube.com/embed/LY5WWr2YG44"
+        title="Preparación del tajín tradicional"
+        allowfullscreen>
+      </iframe>
+    </div>
+  </section>
+  
+
+</main>
+          <include src="src/views/footer.html"></include>
+  </body>
+  
+</html>
