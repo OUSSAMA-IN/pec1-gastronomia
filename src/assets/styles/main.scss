@@ -29,8 +29,8 @@ main {
   align-items: center;
   width: 90%;
   max-width: v.$ancho-maximo;
-  margin: 0 auto;
-  padding: v.$espacio-pequeno 0;
+  margin-left: 3rem;
+  padding: v.$espacio-grande 0;
 }
 
 .header__menu {
