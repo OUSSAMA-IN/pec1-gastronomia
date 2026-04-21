@@ -350,10 +350,9 @@ main {
 }
 
 .categorias__card--clip img,
-.platos__card--clip img {
-  clip-path: polygon(0 0, 100% 0, 100% 86%, 88% 100%, 0 100%);
+.platos__card img {
+  clip-path: polygon(0 0, 100% 0, 100% 85%, 0 100%);
 }
-
 .categorias__card h3,
 .platos__card h3 {
   margin: 0 0 0.75rem;
