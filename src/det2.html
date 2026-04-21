@@ -1,15 +1,19 @@
-<!DOCTYPE html>
+
+      <!DOCTYPE html>
 <html lang="es">
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Sabores de Marruecos</title>
     <link rel="stylesheet" href="./assets/styles/main.scss" />
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css"
+    />
+    
   </head>
   <body>
-
- <header class="header">
+    <header class="header">
       <div class="header__contenedor">
         <h1 class="header__logo">Sabores del Mundo</h1>
 
@@ -24,46 +28,92 @@
         </nav>
       </div>
     </header>
+
     <main class="detalle-pastela">
+      <section class="detalle-pastela__hero">
+        <picture class="detalle-pastela__picture">
+          <source
+            media="(max-width: 767px)"
+            srcset="./assets/img/pastela_mobile.webp"
+          />
+          <source
+            media="(max-width: 1199px)"
+            srcset="./assets/img/pastela_tableta.webp"
+          />
+          <img
+            class="detalle-pastela__hero-img"
+            src="./assets/img/pastela_desktop.webp"
+            alt="Pastela marroquí tradicional"
+          />
+        </picture>
+        
+        <div class="detalle-pastela__hero-overlay">
+          <p class="detalle-pastela__subtitulo">Especialidad tradicional</p>
+          <h1 class="detalle-pastela__titulo">Pastela tradicional</h1>
+        </div>
+      </section>
 
-  <div class="detalle-pastela__capa">
-    <section class="detalle-pastela__contenido">
-      <p class="detalle-pastela__subtitulo">Especialidad tradicional</p>
-      <h1 class="detalle-pastela__titulo">Pastela tradicional</h1>
+      <div class="detalle-pastela__capa">
+        <section class="detalle-pastela__intro">
+          <div class="detalle-pastela__contenido">
+            <p class="detalle-pastela__texto">
+              La pastela es una de las recetas más elegantes de la gastronomía marroquí.
+              Destaca por su mezcla de sabores dulces y salados y por su presencia en
+              celebraciones y reuniones familiares.
+            </p>
 
-      <p class="detalle-pastela__texto">
-        La pastela es una de las recetas más elegantes de la gastronomía marroquí.
-        Destaca por su mezcla de sabores dulces y salados y por su presencia en
-        celebraciones y reuniones familiares.
-      </p>
+            <p class="detalle-pastela__texto">
+              Su elaboración combina una masa fina y crujiente con un relleno especiado,
+              lo que la convierte en un plato muy representativo de la riqueza culinaria
+              de Marruecos.
+            </p>
+            <p class="detalle-pastela__texto">
+             Tradicionalmente, la pastela se prepara en ocasiones especiales y refleja
+             la importancia de la hospitalidad en la cultura marroquí.
+           </p>
+          </div>
+        </section>
 
-      <p class="detalle-pastela__texto">
-        Su elaboración combina una masa fina y crujiente con un relleno especiado,
-        lo que la convierte en un plato muy representativo de la riqueza culinaria de Marruecos.
-      </p>
+        <section class="detalle-pastela__video-bloque">
+          <h2 class="detalle-pastela__seccion-titulo">Cómo se prepara la pastela</h2>
+         <p class="pastela__intro">
+         Descubre paso a paso cómo se elabora la pastela marroquí, una receta que combina sabores dulces y salados en una preparación única. Este plato tradicional requiere paciencia y técnica, pero el resultado es espectacular.
+        </p>
+          <div class="detalle-pastela__video">
+            <iframe
+              src="https://www.youtube.com/embed/iXqV61DZ1tY"
+              title="Pastela marroquí"
+              allowfullscreen
+            ></iframe>
+          </div>
+        </section>
 
-      <div class="detalle-pastela__video">
-        <iframe
-          src="https://www.youtube.com/embed/iXqV61DZ1tY"
-          title="Pastela marroquí"
-          allowfullscreen>
-        </iframe>
+        <section class="detalle-pastela__galeria" id="platos">
+          <h2 class="detalle-pastela__seccion-titulo">
+            Galeria
+          </h2>
+          <p class="pastela__intro">
+           Una selección de imágenes que muestran la textura crujiente, los detalles del relleno y la presentación de la pastela en la cocina marroquí.
+        </p>
+
+          <div class="detalle-pastela__imagenes">
+            <img
+              src="./assets/img/pastela.jpg"
+              alt="Pastela marroquí servida en un plato tradicional"
+            />
+            <img
+              src="./assets/img/pastela_2.webp"
+              alt="Ingredientes de la pastela con especias y masa fina"
+            />
+            <img
+              src="./assets/img/pastela_3.jpg"
+              alt="Preparación artesanal de la pastela marroquí"
+            />
+          </div>
+        </section>
       </div>
-    </section>
-    <section class="detalle__galeria pastela container">
-  <h2>lPastela: tradición marroquí en cada bocado</h2>
+    </main>
 
-  <div class="detalle__imagenes">
-    <img src="./assets/img/pastela.jpg" alt="Tajín marroquí servido en plato tradicional">
-    <img src="./assets/img/pastela_2.webp" alt="Ingredientes del tajín con verduras y especias">
-    <img src="./assets/img/pastela_3.jpg" alt="Preparación del tajín en recipiente de barro">
-  </div>
-</section>
-  </div>
-
-</main>
-  
-          <include src="src/views/footer.html"></include>
+    <include src="src/views/footer.html"></include>
   </body>
-  
 </html>

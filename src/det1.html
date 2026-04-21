@@ -27,6 +27,24 @@
   <main class="detalle">
 
   <section class="detalle__hero">
+  <picture>
+ 
+  <source 
+    media="(max-width: 767px)" 
+    srcset="./assets/img/tajine_mobile.jpg"
+  >
+
+  <source 
+    media="(max-width: 1199px)" 
+    srcset="./assets/img/tajine_tableta.jpg"
+  >
+
+  <img 
+    class="detalle__hero-img"
+    src="./assets/img/tajine_desktop.jpg"
+    alt="Tajín marroquí tradicional servido en cazuela de barro con verduras y carne"
+  >
+</picture>
     <div class="detalle__hero-contenido">
       <p class="detalle__subtitulo">Especialidad tradicional</p>
       <h1 class="detalle__titulo">Tajín tradicional</h1>
@@ -78,10 +96,42 @@
   <h2>El tajín en imágenes</h2>
 
   <div class="detalle__imagenes">
-    <img src="./assets/img/tajin.webp" alt="Tajín marroquí servido en plato tradicional">
-    <img src="./assets/img/tajin_2.jpg" alt="Ingredientes del tajín con verduras y especias">
-    <img src="./assets/img/tajin_3.jpg" alt="Preparación del tajín en recipiente de barro">
-  </div>
+  
+  <img
+    src="./assets/img/tajine1-1700.webp"
+    srcset="
+      ./assets/img/tajine1-600.webp 600w,
+      ./assets/img/tajine1-900.webp 900w,
+      ./assets/img/tajine1-1700.webp 1700w
+    "
+    sizes="(max-width: 768px) 100vw, 33vw"
+    alt="Tajín marroquí servido en plato tradicional"
+  />
+
+  <img
+    src="./assets/img/tajine2-1700.webp"
+    srcset="
+      ./assets/img/tajine2-600.webp 600w,
+      ./assets/img/tajine2-900.webp 900w,
+      ./assets/img/tajine2-1700.webp 1700w
+    "
+    sizes="(max-width: 768px) 100vw, 33vw"
+    alt="Ingredientes del tajín con verduras y especias"
+  />
+
+  <img
+    src="./assets/img/tajine3-1700.webp"
+    srcset="
+      ./assets/img/tajine3-600.webp 600w,
+      ./assets/img/tajine3-900.webp 900w,
+      ./assets/img/tajine3-1700.webp 1700w
+    "
+    sizes="(max-width: 768px) 100vw, 33vw"
+    alt="Preparación del tajín en recipiente de barro"
+  />
+
+</div>
+   
 </section>
  
   <section class="detalle__video">

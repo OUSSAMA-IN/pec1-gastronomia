@@ -2,12 +2,13 @@
 $color-fondo: #111;
 $color-fondo-secundario: #1f1f1f;
 $color-fondo-claro: #f5f5f5;
-
+$color-fondo-header:#f7f1e8;
 $color-texto: #fff;
 $color-texto-oscuro: #111;
 $color-texto-secundario: #666;
 $color-texto-suave: #d1d1d1;
 $color-texto-copy: #aaa;
+
 
 $color-principal: #f59e0b;
 $color-principal-hover: #d97706;
@@ -15,13 +16,15 @@ $color-principal-hover: #d97706;
 $color-borde-claro: #ddd;
 $color-borde-footer: #2a2a2a;
 
-$fuente-principal: Arial, sans-serif;
+$fuente-principal: 'Poppins', sans-serif;
 
 $titulo-grande: 2.5rem;
+$subtitulo: 2rem;
 $titulo-footer: 1.8rem;
 $subtitulo-footer: 1.1rem;
 $texto-normal: 1rem;
 $texto-pequeno: 0.95rem;
+
 
 $espacio-pequeno: 1rem;
 $espacio-medio: 1.5rem;
@@ -33,3 +36,10 @@ $radio-redondo: 50%;
 $radio-normal: 10px;
 
 $tablet: 768px;
+$c-principal: #d68c10;
+$c-principal-hover: #b87408;
+$c-fondo: #f7f4ef;
+$c-blanco: #ffffff;
+$c-texto: #1e1e1e;
+$c-texto-suave: #5f5f5f;
+$c-borde: #ebe4d8;
