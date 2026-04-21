@@ -1,9 +1,7 @@
 @use "variables" as v;
 @import "npm:@fortawesome/fontawesome-free/css/all.css";
 
-/* =========================
-   BASE
-========================= */
+/* BASE*/
 
 * {
   box-sizing: border-box;
@@ -25,9 +23,7 @@ main {
   flex: 1;
 }
 
-/* =========================
-   HEADER
-========================= */
+/*  HEADER */
 
 .header {
   background: #f7f1e8;
@@ -109,9 +105,7 @@ main {
   }
 }
 
-/* =========================
-   INDEX
-========================= */
+/* INDEX */
 
 .skip-link {
   position: absolute;
@@ -253,9 +247,7 @@ main {
   filter: brightness(1.03);
 }
 
-/* =========================
-   SECCIONES HOME
-========================= */
+/* SECCIONES HOME */
 
 .categorias,
 .platos {
@@ -468,9 +460,7 @@ main {
   }
 }
 
-/* =========================
-   FOOTER
-========================= */
+/* FOOTER */
 
 .footer {
   margin-bottom: 0;
@@ -575,9 +565,7 @@ main {
   }
 }
 
-/* =========================
-   PÁGINA DE CATEGORÍAS
-========================= */
+/*  PÁGINA DE CATEGORÍAS */
 
 .categorias-intro {
   position: relative;
@@ -831,9 +819,7 @@ main {
   }
 }
 
-/* =========================
-   PÁGINA DETALLE 1
-========================= */
+/* PÁGINA DETALLE 1  det1*/
 
 .detalle__hero {
   position: relative;
@@ -1189,9 +1175,7 @@ main {
   }
 }
 
-/* =========================
-   PÁGINA DETALLE 2
-========================= */
+/* PÁGINA DETALLE 2 det2 */
 
 .detalle-pastela {
   padding-bottom: 5rem;
