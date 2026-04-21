@@ -22,7 +22,9 @@ const imagenes = [
 
   { input: "./src/assets/img/tarta.jpeg", outputName: "tarta" },
   { input: "./src/assets/img/articulo3.jpeg", outputName: "articulo3" },
-  { input: "./src/assets/img/pastel.jpg", outputName: "pastel" }
+  { input: "./src/assets/img/pastel.jpg", outputName: "pastel" },
+  { input: "./src/assets/img/paella.jpg", outputName: "paella" }
+
 ];
 
 async function generarImagenes() {
